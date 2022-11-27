@@ -1,0 +1,93 @@
+.about_img {
+    background: url("../../assests/img1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin-right: 1rem;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.about_title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.about_description {
+    line-height: 1.5rem;
+    justify-content: center;
+    justify-items: center;
+}
+
+.about_subtitle {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.about_container {
+    padding-top: 7rem;
+}
+
+.about_content {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.about_cv {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 1.5rem;
+}
+
+/*====== Breakpoints =====*/
+/* for large devives */
+@media screen and (max-width: 992px) {}
+
+/* for medium devives */
+@media screen and (max-width: 768px) {}
+
+/* for small devives */
+@media screen and (max-width: 576px) {
+    .button {
+        display: inline-block;
+        background-color: var(--text-color);
+        color: var(--container-color);
+        padding: 1rem 1.5rem;
+        border-radius: 1rem;
+        font-weight: var(--font-medium);
+    }
+
+    .about_content {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        row-gap: 2rem;
+    }
+
+    .about_img {
+        background: url("../../assests/img1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 150px;
+        height: 150px;
+        margin-right: 1rem;
+        justify-content: center;
+        border-radius: 8px;
+    }
+
+
+}
+
+/* for smaller devives */
+@media screen and (max-width: 350px) {
+    .container {
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
+}

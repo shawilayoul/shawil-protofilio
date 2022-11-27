@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+/*================google font ========================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600&display=swap');
+
+/*================ Variable css =========*/
+:root {
+    /*====== Colors============*/
+    /*====== color mode HSL(hue,saturation,lighthness)==*/
+    --hue: 0;
+    --sat: 0%;
+    --title-color: hsl(var(--hue), var(--sat), 20%);
+    --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+    --text-color: hsl(var(--hue), var(--sat), 46%);
+    --body-color: hsl(var(--hue), var(--sat), 98%);
+    --container-color: #fff;
+    /*========== Font weight =======*/
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*======= Base ======*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body,
+button,
+input,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+    background-color: var(--body-color);
+    color: var(--text-color);
 }
 
-.App-link {
-  color: #61dafb;
+h1,
+h2,
+h3 {
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*======= Reusable css class =========*/
+.section {
+    padding: 6rem 0 2rem;
+}
+
+.section_title {
+    font-size: large;
+    color: var(--text-color);
+}
+
+.section_subtitle {
+    display: block;
+    font-size: small;
+    margin-bottom: 4rem;
+}
+
+.section_title,
+.section_subtitle {
+    text-align: center;
+}
+
+/*======== layout=======*/
+.container {
+    max-width: 1245px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--text-color);
+    color: var(--container-color);
+    padding: 1.25rem 2rem;
+    border-radius: 1rem;
+    font-weight: var(--font-medium);
+}
+
+.button:hover {
+    background-color: var(--title-color-dark);
+}
+
+.button_icon {
+    margin-left: 0.5rem;
+}
+
+.button_flex {
+    display: inline-flex;
+    align-items: center;
+}
+
+/*====== Breakpoints =====*/
+/* for large devives */
+@media screen and (max-width: 992px) {
+    .container {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+
+/* for medium devives */
+@media screen and (max-width: 768px) {}
+
+/* for small devives */
+@media screen and (max-width: 576px) {}
+
+/* for smaller devives */
+@media screen and (max-width: 350px) {
+    .container {
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
 }

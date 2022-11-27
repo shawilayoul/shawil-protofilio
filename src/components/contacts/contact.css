@@ -1,0 +1,103 @@
+.contact_titles {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    display: grid;
+    justify-content: center;
+}
+
+.contact_subtitle {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact_contents {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    column-gap: 3rem;
+}
+
+.contact_items {
+    display: grid;
+    row-gap: 2rem;
+    justify-content: center;
+}
+
+form {
+    display: grid;
+    row-gap: 1rem;
+}
+
+.contacts_writing {
+    row-gap: 2rem;
+}
+
+.contact_icon {
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+
+.iteme-list {
+    display: grid;
+    row-gap: 0.5rem;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+input {
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.contact_link {
+    text-align: center;
+}
+
+textarea {
+    height: 12rem;
+    border-radius: 8px;
+    padding: 10px 0 0 15px;
+    resize: none;
+}
+
+label {
+    text-align: center;
+}
+
+.items_title {
+    text-align: center;
+}
+
+.writing_title {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--text-color);
+    color: var(--container-color);
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    font-weight: var(--font-medium);
+}
+
+/*====== Breakpoints =====*/
+/* for large devives */
+@media screen and (max-width: 992px) {}
+
+/* for medium devives */
+@media screen and (max-width: 768px) {}
+
+/* for small devives */
+@media screen and (max-width: 576px) {
+    .contact_contents {
+        display: block;
+    }
+}
+
+/* for smaller devives */
+@media screen and (max-width: 350px) {}

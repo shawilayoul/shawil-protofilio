@@ -1,0 +1,97 @@
+.skills_contents {
+    display: grid;
+    justify-content: center;
+    row-gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.skills_title {
+    text-align: center;
+}
+
+.frondend_contents {
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+    padding: 4rem;
+}
+
+.skills-icon {
+    margin-right: 5px;
+}
+
+.frondend_items {
+    display: block;
+    color: var(--title-color);
+    margin-bottom: 1rem;
+}
+
+.skills_span {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-size: 15px;
+    margin-top: 0.2rem;
+}
+
+.skills_data {
+    display: flex;
+    justify-content: center;
+    column-gap: 4rem;
+}
+
+.frondend_title {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.frondend_container {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+/*====== Breakpoints =====*/
+/* for large devives */
+@media screen and (max-width: 992px) {}
+
+/* for medium devives */
+@media screen and (max-width: 768px) {}
+
+/* for small devives */
+@media screen and (max-width: 576px) {
+    .frondend_container {
+        background-color: #fff;
+        text-align: center;
+        padding-top: 10px;
+        display: grid;
+
+    }
+
+    .frondend_contents {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        justify-items: center;
+        column-gap: 3rem;
+        padding: 4rem;
+    }
+
+    .skills_data {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        row-gap: 4rem;
+    }
+}
+
+/* for smaller devives */
+@media screen and (max-width: 350px) {
+    .container {
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
+}
