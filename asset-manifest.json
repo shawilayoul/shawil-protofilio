@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/shawil-protofilio/static/css/main.c6e7aa7d.css",
+    "main.js": "/shawil-protofilio/static/js/main.f5a9c444.js",
+    "static/js/787.7e21cc9e.chunk.js": "/shawil-protofilio/static/js/787.7e21cc9e.chunk.js",
+    "static/media/img1.jpg": "/shawil-protofilio/static/media/img1.cc4331c4ec7247822e62.jpg",
+    "static/media/cv.pdf": "/shawil-protofilio/static/media/cv.bbd6696b4d0bda4e32c6.pdf",
+    "index.html": "/shawil-protofilio/index.html",
+    "main.c6e7aa7d.css.map": "/shawil-protofilio/static/css/main.c6e7aa7d.css.map",
+    "main.f5a9c444.js.map": "/shawil-protofilio/static/js/main.f5a9c444.js.map",
+    "787.7e21cc9e.chunk.js.map": "/shawil-protofilio/static/js/787.7e21cc9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6e7aa7d.css",
+    "static/js/main.f5a9c444.js"
+  ]
+}
