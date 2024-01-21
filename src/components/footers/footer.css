@@ -1,0 +1,36 @@
+.footer_container {
+    background-color: white;
+    margin-top: 2rem;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+}
+
+.footer_title {
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer_contents {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer_link {
+    color: black;
+}
+
+.footer_list {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer_icon {
+    font-size: x-large;
+}

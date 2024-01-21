@@ -1,0 +1,120 @@
+.home_content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.social_nav {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.social_icon {
+    font-size: larger;
+    color: var(--title-color);
+}
+
+.social_icon:hover {
+    color: var(--text-color-dark);
+}
+
+.social_menu {
+    display: grid;
+    row-gap: 2rem;
+}
+
+.home_img {
+    background: url("../../assests/img1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.data_section {
+    line-height: 1rem;
+}
+
+.data_p {
+    line-height: 1.5rem;
+}
+
+.data_title {
+    font-size: 40px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.data_subtitle {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/*====== Breakpoints =====*/
+/* for large devives */
+@media screen and (max-width: 992px) {
+    .container {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .data_title {
+        font-size: 20px;
+        line-height: 2rem;
+    }
+
+    .data_subtitle {
+        font-size: 15px;
+        line-height: 1.5rem;
+    }
+}
+
+/* for medium devives */
+@media screen and (max-width: 768px) {}
+
+/* for small devives */
+@media screen and (max-width: 576px) {
+
+    .home_content {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        grid-template-columns: 1fr;
+
+    }
+
+    .social_menu {
+        display: flex;
+        column-gap: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .home_img {
+        background: url("../../assests/img1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* for smaller devives */
+@media screen and (max-width: 350px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
